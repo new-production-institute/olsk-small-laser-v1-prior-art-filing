@@ -21,7 +21,7 @@ A tool to make, a tool to learn.
 
 In comparison to commercial laser cutters, OLSK Small Laser adds on top of the laser cutting functionalities a valuable learning experience. Ideally built together with students during a workshop, OLSK Small Laser will give the user not only the possibility to laser cut but also to learn how the machine is made, and how it works. The final user will not only be learning about electronics, mechanics and lasers, but will also have a deep knowledge of the machine, to be able to efficiently execute maintenance, apply improvements and even design their own machine later on!
 
-The Assembly Manual 
+The Assembly Manual
 --
 
 All OLSK machines are open source and have an assembly manual, the BOM and necessary files available in this repository for replication. The assembly manual is an interactive 3D guide though each step and contains a list of parts, tools and instruction remarks, which follows a logic order to provide a smooth assembly.
@@ -49,8 +49,8 @@ Specifications
 
 - laser source: 40W CO2
 - cutting area: 600x400mm
-- resolution: 0.05mm 
-- max. cutting thickness: 
+- resolution: 0.05mm
+- max. cutting thickness:
   - 10mm acrylic
   - 6mm MDF
   - 8mm Plywood
@@ -86,6 +86,9 @@ OLSK Small Laser V2 has been designed, developed and manufactured by:<br>
 License
 --
 
+See the LICENSES folder and the SPDX metadata for more details on other files.  The project
+is [REUSE](https://reuse.software/) compliant
+
 The Fabulaser Mini hardware design, CAD and PCB files, BOM, settings and relative files are are released under the following open source license:
 
 - CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
@@ -96,10 +99,17 @@ The Fabulaser assembly manual, pictures and presentation text of this repository
 
 Fabulaser Mini uses grbl-LPC [https://github.com/cprezzi/grbl-LPC](https://github.com/cprezzi/grbl-LPC), released under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
+Copyright
+--
+
+- Daniele Ingrassia, InMachines Ingrassia GmbH
+
+- Tobias Redlich, Helmut-Schmidt-Universität/Universität der Bundeswehr Hamburg
+
 Previous version
 --
 
-Previous versions of Fabulaser Mini will always be available. 
+Previous versions of Fabulaser Mini will always be available.
 
-**[OLSK Small Laser V1 Repository](OLSK_Small_Laser_V1)** 
+**[OLSK Small Laser V1 Repository](OLSK_Small_Laser_V1)**
 <div><img src="media/OLSK-Small-Laser.png" width="30%"></div>
