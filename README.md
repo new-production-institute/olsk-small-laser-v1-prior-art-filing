@@ -89,7 +89,7 @@ License
 See the LICENSES folder and the SPDX metadata for more details on other files.  The project
 is [REUSE](https://reuse.software/) compliant
 
-The Fabulaser Mini hardware design, CAD and PCB files, BOM, settings and relative files are are released under the following open source license:
+The Fabulaser Mini hardware design, CAD and PCB files, BOM, settings and relative files are released under the following open source license:
 
 - CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
 
