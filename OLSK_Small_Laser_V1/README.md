@@ -1,57 +1,59 @@
-<div align="center"><h1 style=align="center">OLSK Small Laser V1</h1></div>
+# OLSK Small Laser V1
 
-<div align="center"><img src="media/OLSK-Small-Laser.png" width="100%"></div>
-<div align="center"><i>Open Source Laser Cutter - Small version - Open Lab Starter Kit</i></div>
+![OLSK Small Laser](media/OLSK-Small-Laser.png)
 
-<br>
+*Open Source Laser Cutter – Small version – Open Lab Starter Kit*
 
-Introduction
---
+---
 
-The OLSK Small Laser V1 is a compact but powerful desktop laser cutter. It features the design of the **[Fabulaser Mini](https://github.com/fab-machines/Fabulaser-Mini)**, developed to fit in Fab Labs and classrooms, with a compact size of 870x810x380mm and the weight under 60kg. It uses an optimized 40W CO2 laser, being able to cut 8mm acrylic. With a cutting area of 600x400mm, is one the largest of this machine category. 
+## Introduction
 
-<img src="media/Highlights.png" width="100%">
+The OLSK Small Laser V1 is a compact but powerful desktop laser cutter. It features the design of the **[Fabulaser Mini](https://github.com/fab-machines/Fabulaser-Mini)**, developed to fit in Fab Labs and classrooms, with a compact size of 870×810×380 mm and a weight under 60 kg. It uses an optimized 40 W CO₂ laser, capable of cutting 8 mm acrylic. With a cutting area of 600×400 mm, it is one of the largest machines in its category.
 
+![Highlights](media/Highlights.png)
 
-Learning by Making
---
+---
 
-The assembly of the OLSK Small Laser provides a unique learning experience. With the help of a workshop and the assembly manual, this laser cutter can be built in a few days, allowing the participants to understand the role of each part and how the mechanics, optics and electronics function from inside out. 
+## Learning by Making
 
-<img src="media/HH_T.jpg" width="100%">
+The assembly of the OLSK Small Laser provides a unique learning experience. With the help of a workshop and the assembly manual, this laser cutter can be built in a few days, allowing participants to understand the role of each part and how the mechanics, optics, and electronics function from the inside out.
 
-The Assembly Manual
---
+![Workshop](media/HH_T.jpg)
 
-<img src="media/Manual2.png" width="100%">
+---
 
-Just like the **[Fabulaser Mini](https://github.com/fab-machines/Fabulaser-Mini)**, the OLSK Small Laser V1 comes with a detailed building manual. Divided in logical steps, the manual also instructs on general building practices, the laser calibration and how to connect all the electronics of the machine. Teachers and lectures can also use the manual to divide workshop participants into building groups. 
+## The Assembly Manual
 
-Specifications V1
---
+![Manual](media/Manual2.png)
 
-- laser source: 40W CO2
-- cutting area: 600x400mm
-- frame: 30x30mm aluminum profiles
-- resolution: 0.05mm
-- max. cutting thickness:
-    - 8mm acrylic
-    - 6mm MDF
-    - 8mm Plywood
-- max speed: 400mm/s
-- motion: linear rails
-- housing: aluminum composite
-- bed: aluminum lamella
-- frame: 30 x 30 mm aluminum profiles
-- controller: 32bit LPC1768
-- firmware: grbl-LPC
-- machine dimensions: 870x810x380mm
-- motion: GT2 10mm belts
-- guides: 12mm linear rails
-- motors: stepper NEMA 17
+Just like the **[Fabulaser Mini](https://github.com/fab-machines/Fabulaser-Mini)**, the OLSK Small Laser V1 comes with a detailed building manual. Divided into logical steps, the manual also instructs on general building practices, laser calibration, and how to connect all electronics. Teachers can also use the manual to divide participants into groups for workshops.
 
-Files
---
+---
+
+## Specifications V1
+
+- **Laser source:** 40 W CO₂
+- **Cutting area:** 600×400 mm
+- **Frame:** 30×30 mm aluminum profiles
+- **Resolution:** 0.05 mm
+- **Max cutting thickness:**
+  - 8 mm acrylic
+  - 6 mm MDF
+  - 8 mm plywood
+- **Max speed:** 400 mm/s
+- **Motion:** linear rails
+- **Housing:** aluminum composite
+- **Bed:** aluminum lamella
+- **Controller:** 32-bit LPC1768
+- **Firmware:** grbl-LPC
+- **Machine dimensions:** 870×810×380 mm
+- **Motion system:** GT2 10 mm belts
+- **Guides:** 12 mm linear rails
+- **Motors:** NEMA 17 steppers
+
+---
+
+## Files
 
 - **[Assembly manual](https://github.com/Open-Lab-Starter-Kit/OLSK-Small-Laser/tree/main/manual)**
 - **[BOM](https://github.com/Open-Lab-Starter-Kit/OLSK-Small-Laser/blob/main/OLSK_Small_Laser_V1_BOM.pdf)**
@@ -61,43 +63,42 @@ Files
 - **[Settings](https://github.com/Open-Lab-Starter-Kit/OLSK-Small-Laser/tree/main/settings)**
 - **[User manual](https://github.com/Open-Lab-Starter-Kit/OLSK-Small-Laser/blob/main/manual/OLSK_Small_Laser_V1_User%20manual_L1M1.pdf)**
 
-Author
---
+---
+
+## Author
 
 OLSK Small Laser has been designed and built by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)**.
-<br>
-<img src="https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/InMachines_Logo_positive_white.png" width="50%">
 
-<br>
+![InMachines](https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/InMachines_Logo_positive_white.png)
 
-Machine design:
+### Machine Design
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
 
-Manual design:
+### Manual Design
 - Marc Kohlen (marckohlen@3dinx.com)
 - Liane Sayuri Honda (licasayurih@gmail.com)
 
-The machine is part of the **[Open Lab Starter Kit (OLSK)](https://www.inmachines.net/open-lab-starter-kit)** group of open source digital fabrication machines.
+The machine is part of the **[Open Lab Starter Kit (OLSK)](https://www.inmachines.net/open-lab-starter-kit)** group of open-source digital fabrication machines.
 
 OLSK is developed by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)** for the **[Dtec project](https://dtecbw.de/home/forschung/hsu/projekt-fabcity)** at **[Fab City Hamburg](https://www.fabcity.hamburg/en/)**.
 
-OLSK Partners:
-<br><br>
-<img src="https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/OLSK_partners.png" width="80%">
+![Partners](https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/OLSK_partners.png)
 
-Contact
---
+---
+
+## Contact
 
 - daniele@inmachines.net
-- [https://www.inmachines.net/](https://www.inmachines.net/)
+- https://www.inmachines.net/
 
-License
---
+---
 
-Hardware design, CAD and PCB files, BOM, settings and other technical or design files are released under the following license:
+## License
 
-- CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
+Hardware design, CAD and PCB files, BOM, settings and other technical or design files are released under:
 
-Assembly manual, pictures, videos, presentations, description text and other type of media are released under the following license:
+- **CERN Open Hardware Licence Version 2 Weakly Reciprocal — [CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
 
-- Creative-Commons-Attribution-ShareAlike 4.0 International - **[CC BY-SA 4.0](LICENSE_CC_BY_SA_4.0.txt)**
+Assembly manual, pictures, videos, presentations, description text and other media are released under:
+
+- **CC BY-SA 4.0 — [Creative Commons Attribution-ShareAlike 4.0](LICENSE_CC_BY_SA_4.0.txt)**

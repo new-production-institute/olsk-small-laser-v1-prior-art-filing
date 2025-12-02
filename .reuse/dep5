@@ -3,16 +3,17 @@ Upstream-Name: OLSK-Small-Laser
 Upstream-Contact: Daniele Ingrassia <daniele@inmachines.net>
 Source: https://github.com/Open-Lab-Starter-Kit/OLSK-Small-Laser.git
 
-##########################
-# OLSK Small Laser V2
-##########################
+##################################
+# OLSK Small Laser V1
+##################################
 
 Files:
-    Assembly_Manual/**
-    settings/**
-    .gitattributes
-    .gitignore
-    README.md
+    OLSK_Small_Laser_V1/manual/**
+    OLSK_Small_Laser_V1/settings/**
+    OLSK_Small_Laser_V1/.gitattributes
+    OLSK_Small_Laser_V1/.gitignore
+    OLSK_Small_Laser_V1/README.md
+    OLSK_Small_Laser_V1/README-zh.md
 Copyright:
     Daniele Ingrassia <daniele@inmachines.net>
     Tobias Redlich <tobias.redlich@hsu-hh.de>
@@ -20,42 +21,38 @@ License: AGPL-3.0-or-later
 
 # GRBLHAL
 Files:
-    firmware/**
+    OLSK_Small_Laser_V1/firmware/**
 Copyright: Various
 License: GPL-3.0-or-later
 
 Files:
-    Assembly_Manual/public/**
-    media/**
+    OLSK_Small_Laser_V1/media/**
 Copyright:
     Daniele Ingrassia <daniele@inmachines.net>
     Tobias Redlich <tobias.redlich@hsu-hh.de>
 License: CC-BY-SA-4.0
 
-# The fonts in this directory are under various licenses.
-# Please refer to the license notice in each individual file.
-Files: Assembly_Manual/public/fonts/**
-Copyright: Various authors
-License: LicenseRef-Magenta
-
-
 Files:
-    OLSK_Small_Laser_V2_BOM.pdf
-    OLSK_Small_Laser_V2_Workbook.pdf
-    WiringSchematic_OLSK_Small_Laser_V2.pdf
-    cad/**
+    OLSK_Small_Laser_V1/OLSK_Small_Laser_V1_BOM.pdf
+    OLSK_Small_Laser_V1/cad/**
+    OLSK_Small_Laser_V1/converterPCB/**
 Copyright:
     Daniele Ingrassia <daniele@inmachines.net>
     Tobias Redlich <tobias.redlich@hsu-hh.de>
 License: CERN-OHL-W-2.0
 
 Files:
-    LICENSE.txt
     LICENSE_CC_BY_SA_4.0.txt
     LICENSE_CERN_OHL_W_V2.txt
 Copyright: NONE
 License: CC0-1.0
 
+
 ##################################
-# OLSK Small Laser V1, V2 TBD
+# OLSK Small Laser v1 pre-emptive filing
 ##################################
+
+Files:
+    README.md
+Copyright: J.C. Mariscal-Melgar <jcm@hsu-hh.de>
+License: AGPL-3.0-or-later
